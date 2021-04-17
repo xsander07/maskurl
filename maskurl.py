@@ -77,7 +77,7 @@ def prompt():
         print(f'\n{c.CYAN}[ + ] Here is your masked URL:{c.ENDC}\n- {mask_main_url}-{final_mask}@{js_url}')
         exit()
     except Exception as e:
-        print(f"\n{c.FAIL}[ ! ] An unknown exception has occured. Did you enter a valid URL format or just put 'https://' or 'http://' ?{c.ENDC}")
+        print(f"\n{c.FAIL}[ ! ] An unknown exception has occured. Did you enter a valid URL?{c.ENDC}")
         exit(1)
 
 if __name__ == '__main__':
