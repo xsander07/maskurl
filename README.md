@@ -1,0 +1,2 @@
+# maskurl
+Mask a URL.
