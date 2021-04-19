@@ -24,13 +24,6 @@ class c:
     FAIL = '\033[91m'
     ENDC = '\033[0m'
 
-if python_version().startswith('2', 0):
-    print(
-        f'{c.WARNING} You are using Python {python_version()}\n'
-        f'Please use Python 3.x{c.ENDC}'
-    )
-    exit(1)
-
 maskurl = f"""
 {c.BLUE}--------------------{c.ENDC}
 
