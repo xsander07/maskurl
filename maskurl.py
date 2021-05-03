@@ -13,7 +13,6 @@ __copyright__ = 'Copyright 2021 scrazzz'
 __version__ = '0.1.0'
 
 import urllib.parse as uparse
-from platform import python_version
 import requests
 
 class c:
